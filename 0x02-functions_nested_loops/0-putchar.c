@@ -3,19 +3,18 @@
 /**
  * main - This program prints _putchar
  * Return: Always 0 
- */
- 
- 
+*/
+  
 int main(void)
 {
-	char ch[] = "_putchar";
-	int i;
+ char ch[] = "_putchar";
+ int i;
 
-	for (i = 0; ch[i] != '\0'; i++)
-	{
-		_putchar(ch[i]);
-	}
+ for (i = 0; ch[i] != '\0'; i++)
+ {
+  _putchar(ch[i]);
+ }
 
-	_putchar('\n');
-	return (0);
+ _putchar('\n');
+ return (0);
 }
