@@ -1,193 +1,21 @@
 #include "main.h"
 
 /**
- * _strlen - returns the length of a string
- * @s: string s
- * Return: length of string
+ * puts2 - function should print only one character out of two
+ * starting with the first one
+ * @str: input
+ * Return: print
  */
-int _strlen(char *s)
+void puts2(char *str)
 {
-	int length = 0;
+	int i = 0;
 
-	while (*s)
+	for (; str[i] != '\0'; i++)
 	{
-		s++;
-		length++;
+		if ((i % 2) == 0)
+			_putchar(str[i]);
+		else
+			continue;
 	}
-	return (length);
-}
-
-/**
- * puts2 - prints one char out of 2 of a string, followed by
- * a new line
- * @str: string str
- */
-void puts2(char *str)
-{
-	int i;
-	int size = _strlen(str);
-
-	for (i = 0; i < size; i += 2)
-		_putchar(*(str + i));
 	_putchar('\n');
-}#include "main.h"
-
-/**
- *  * _strlen - returns the length of a string
- *   * @s: string s
- *    * Return: length of string
- *     */
-int _strlen(char *s)
-{
-		int length = 0;
-
-			while (*s)
-			{
-						s++;
-								length++;
-			}
-				return (length);
-}
-
-/**
- *  * puts2 - prints one char out of 2 of a string, followed by
- *   * a new line
- *    * @str: string str
- *     */
-void puts2(char *str)
-{
-		int i;
-			int size = _strlen(str);
-
-				for (i = 0; i < size; i += 2)
-							_putchar(*(str + i));
-					_putchar('\n');
-}#include "main.h"
-
-/**
- *  * _strlen - returns the length of a string
- *   * @s: string s
- *    * Return: length of string
- *     */
-int _strlen(char *s)
-{
-		int length = 0;
-
-			while (*s)
-			{
-						s++;
-								length++;
-			}
-				return (length);
-}
-
-/**
- *  * puts2 - prints one char out of 2 of a string, followed by
- *   * a new line
- *    * @str: string str
- *     */
-void puts2(char *str)
-{
-		int i;
-			int size = _strlen(str);
-
-				for (i = 0; i < size; i += 2)
-							_putchar(*(str + i));
-					_putchar('\n');
-}#include "main.h"
-
-/**
- *  * _strlen - returns the length of a string
- *   * @s: string s
- *    * Return: length of string
- *     */
-int _strlen(char *s)
-{
-		int length = 0;
-
-			while (*s)
-			{
-						s++;
-								length++;
-			}
-				return (length);
-}
-
-/**
- *  * puts2 - prints one char out of 2 of a string, followed by
- *   * a new line
- *    * @str: string str
- *     */
-void puts2(char *str)
-{
-		int i;
-			int size = _strlen(str);
-
-				for (i = 0; i < size; i += 2)
-							_putchar(*(str + i));
-					_putchar('\n');
-}#include "main.h"
-
-/**
- *  * _strlen - returns the length of a string
- *   * @s: string s
- *    * Return: length of string
- *     */
-int _strlen(char *s)
-{
-		int length = 0;
-
-			while (*s)
-			{
-						s++;
-								length++;
-			}
-				return (length);
-}
-
-/**
- *  * puts2 - prints one char out of 2 of a string, followed by
- *   * a new line
- *    * @str: string str
- *     */
-void puts2(char *str)
-{
-		int i;
-			int size = _strlen(str);
-
-				for (i = 0; i < size; i += 2)
-							_putchar(*(str + i));
-					_putchar('\n');
-}#include "main.h"
-
-/**
- *  * _strlen - returns the length of a string
- *   * @s: string s
- *    * Return: length of string
- *     */
-int _strlen(char *s)
-{
-		int length = 0;
-
-			while (*s)
-			{
-						s++;
-								length++;
-			}
-				return (length);
-}
-
-/**
- *  * puts2 - prints one char out of 2 of a string, followed by
- *   * a new line
- *    * @str: string str
- *     */
-void puts2(char *str)
-{
-		int i;
-			int size = _strlen(str);
-
-				for (i = 0; i < size; i += 2)
-							_putchar(*(str + i));
-					_putchar('\n');
 }
